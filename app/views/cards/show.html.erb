@@ -1,0 +1,10 @@
+<h1 class="disolay-4 text-primary">Card</h1>
+<p>「<%= @card.title %>」の読書データ</p>
+<table class="table">
+    <tr><th width="200">Id</th><td><%= @card.id %></td></tr>
+    <tr><th>タイトル</th><td><%= @card.title %></td></tr>
+    <tr><th>投稿日</th><td><%= @card.day %></td></tr>
+    <tr><th>著者</th><td><%= @card.author %></td></tr>
+    <tr><th>感想</th><td><%= @card.memo %></td></tr>
+</table>
+<p><a href="/cards">&lt;&lt;トップページに戻る</a></p>
